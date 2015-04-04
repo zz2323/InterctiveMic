@@ -7,7 +7,7 @@
 
 .mainHeadline {
   color: #4f4f4f;
-  font-family: times;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 27px;
   line-height: 32px;
   font-weight: normal;
@@ -15,9 +15,19 @@
 
 .Excerpt {
 color: #4f4f4f;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: 'antialiased';
   display: block
   font-size: 17px;
   line-height: 23px;
+}
+
+.authorAndUpdatedTime{
+	  color: #ccc;
+	    text-decoration: none;
+  font-weight: 300;
+  font-size: 11px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif
+	
 }
