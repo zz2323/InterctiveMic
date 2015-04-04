@@ -1,4 +1,9 @@
-
+.Section {
+	font-family: Georgia;
+	font-size: 10px;
+	color: #ff453d;
+	font-weight: bold;
+}
 
 
 
@@ -7,12 +12,11 @@
 
 .mainHeadline {
   margin: 0;
-  font-family: "proxima-nova",Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  font-family:Helvetica;
+  font-size: 20px;
   font-weight: 300;
   line-height: 20px;
   color: #4f4f4f;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: antialiased;
-  -ms-font-smooting: antialiased;
 }
+
+,Arial,sans-serif
