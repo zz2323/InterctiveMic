@@ -1,33 +1,38 @@
 .Section {
 	font-family: Georgia;
-	font-size: 12px;
 	color: #ff453d;
 	font-weight: bold;
+	padding-left: 0;
+  font-size: 11px;
+  letter-spacing: 1px;
+  line-height: 20px;
 }
 
 .mainHeadline {
   color: #4f4f4f;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: serif;
   font-size: 27px;
   line-height: 32px;
-  font-weight: normal;
+  text-decoration: none;
+  font-weight: 300;
+
 }
 
 .Excerpt {
-color: #4f4f4f;
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: 'antialiased';
-  display: block
-  font-size: 17px;
-  line-height: 23px;
+	color: #4f4f4f;
+	font-family: "proxima-nova",Helvetica,Arial,sans-serif;
+	-webkit-font-smoothing: 'antialiased';
+	display: block;
+	font-size : 17px;
+	line-height: 23px;
+	font-weight: 300;
 }
 
-.authorAndUpdatedTime{
-	  color: #ccc;
-	    text-decoration: none;
-  font-weight: 300;
-  font-size: 11px;
-    line-height: 20px;
-    font-family: Arial, Helvetica, sans-serif
-	
+.authorAndUpdatedTime {
+	color: #ccc;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 11px;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif
 }
