@@ -25,8 +25,11 @@ for (var i=0; i<MicData.length; i++) {
 	}//end of function
 	
 	
+	$ ('#HeadlineInfo').append($template);
 }
 
+
+/**
 for (var i=0; i<guardianHeroinData.length; i++) {
 	var rowData = guardianHeroinData[i];
 	
