@@ -14,11 +14,18 @@ for (var i=0; i<MicData.length; i++) {
 					   
 	$template.find (".readMore").on ("click", toggleContent);
 	
+	function toggleContent(e) {
+		$HeadlineBlocks = $(this).parent();
+		
+		if ($HeadlineBlocks.hasClass("expanded")) {
+			$HeadlineBlocks.removeClass("expanded");
+		} else {
+			$HeadlineBlocks.addClass("expanded");
+		}//end of else
+	}//end of function
+	
 	
 }
-
-
-
 
 for (var i=0; i<guardianHeroinData.length; i++) {
 	var rowData = guardianHeroinData[i];
