@@ -11,6 +11,10 @@ for (var i=0; i<MicData.length; i++) {
 							'<div class="UpdatedTime">'+rowData.UpdatedTIme+'<div>'+
 							'</div>'+
 					   '<div>');
+					   
+	$template.find (".readMore").on ("click", toggleContent);
+	
+	
 }
 
 
