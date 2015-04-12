@@ -27,7 +27,16 @@
 	font-weight: 300;
 }
 
-.authorAndUpdatedTime {
+.Author {
+	color: #ccc;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 11px;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.UpdatedTime {
 	color: #ccc;
 	text-decoration: none;
 	font-weight: 300;
